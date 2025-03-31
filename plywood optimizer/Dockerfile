@@ -1,6 +1,6 @@
 # Stage 1: Use an official Nginx image as the base
 # Using alpine variant for smaller image size
-FROM nginx:1.25-alpine  # Using a specific version is good practice
+FROM nginx:1.25-alpine
 
 # Optional: Add labels to describe the image
 LABEL maintainer="Dean <your.email@example.com>"
